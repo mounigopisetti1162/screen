@@ -1,0 +1,21 @@
+.col{
+    color:blue;
+    float:left;
+    margin:2%;
+    width:50px;
+}
+.one{
+    background-color: bisque;
+}
+.two{
+    background-color: rgb(164, 164, 211);
+}
+@media screen and (max-width:600px) {
+    .col{
+    width:100%;
+    float:inline-end
+
+    }
+
+    
+}

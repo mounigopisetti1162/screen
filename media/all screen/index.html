@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>screen size:<span id="span"></span>px</h1>
+    <div>
+        <h1>small mobile devices</h1>
+        <h1>mobile</h1>
+        <h1>tablet</h1>
+        <h1>laptop</h1>
+        <h1>tvscreen</h1>
+        <h1>theater</h1>
+    </div>
+    <img src="https://jooinn.com/images/nature-339.jpg" alt="">
+    <script>
+        window.addEventListener("resize",function()
+        {
+            let screenSize=window.innerWidth;
+            document.querySelector("#span").innerHTML=screenSize
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+.test{
+    background-color: bisque;
+}
+.para2{
+    background-color: blueviolet;
+    border: 1px solid black;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+
+}
+.pandhi::before{
+    content:"welcome to page"
+}
+.iteams li:nth-child(odd){
+    margin:10px 30px 40px;
+    background-color: red;
+    border-radius: 10px;
+}
+.container{
+    grid-template-columns: 100px 100px;
+    grid-column-start: 3;
+    display:grid;
+    grid-column-start:2;
+    border-radius: 10px;
+    background-color: blue;
+}
+.box1{
+    background-color: rgb(227, 37, 37);
+    padding:20px;
+    border-radius: 20px;
+    margin:10;
+    font-size: 20px;
+}
